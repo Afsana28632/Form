@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+body{
+background-color: darksalmon;
+text-align: center
+}
+div{
+    width:55%;
+    height:600px ; 
+    background-color: whitesmoke;
+    margin-left: 22.5%;
+padding:20px ;
+}
+h1{
+    text-align: center
+}
+#i{
+ width:100% ;
+ height:20px ;   
+}
+#s{
+ border:4px solid  crimson;
+    background-color:lightcoral;
+    text-align: center;
+    margin-left: 85%;
+    padding:20px ;
+    border-radius: 50%;
+    color: whitesmoke
+}
+#f{
+    border:4px solid  crimson;
+    width:90%;
+    height:520px ;
+margin-left: 20px;
+margin-top: 25px;
+text-align: left
+}
+</style>
+
+<body>
+<div>
+<form method="GET" action="#">
+<fieldset id="f">
+ <legend style="margin-left:60% " > *User Information*</legend>
+<h1>form</h1>
+<label for="Name">Name</label> <br>
+<input id="i" type="text" name="Name"> <br>
+<label for="Last Name">Last Name</label>
+<input id="i" type="text" name="Last Name"> <br>
+<label for="Email">Email</label> <br>
+<input id="i" type="text" name="Email"> <br>
+<label for="Pone" name="Phone">Phone</label> <br>
+<input id="i" type="text" name="Phone"> <br>
+<label for="Email">Email</label> <br>
+<input  id="i"type="text" name="Email"> <br>
+<label for="Password">Password</label> <br>
+<input id="i" type="text" name="Password">
+<label for="Gender">Gender</label> <br> 
+<input type="radio" id="Male" name="Gender" value="Male"> 
+<label for="Male">Male</label> <br>
+<input type="radio" id="Female" name="Gender" value="Female">
+<label for="Female">Female</label> <br>
+<input type="radio" id="Other" name="Gender" value="Other"> 
+<label for="Other">Other</label> <br>
+<select name="Countries" id="Countries">
+<option value="Afghanistan" selected>Afghanistan</option>
+<option value="Iran">Iran</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Turkmenistan" >Turkmenistan</option>
+</select><br>
+<input id="s" type="submit" name="submit"> 
+</fieldset>
+</form>
+</div>
+
+</body>
+</html>
